@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.carousel-inner {
+    max-height: 35rem;
+}
+
+#img-equipo {
+    max-height: 30rem !important;
+    width: 50%;
+}
+
+
+
+
