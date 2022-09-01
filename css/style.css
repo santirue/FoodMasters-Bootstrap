@@ -18,6 +18,38 @@ body {
     margin: 0 !important;
 }
 
+@media (max-width:1200px) {
+
+    #intro {
+        width: 90% !important;
+        margin: auto;
+    }
+}
+@media (max-width:768px) {
+
+    #intro{
+        width: 90% !important;
+        margin: auto;
+    }
+}
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width: 100% !important;
+    }
+
+    #servicios-fila-1 {
+        width: 100% !important;
+    }
+
+    .icono-wrap {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+
+
 
 /*=========================CONTACTOS BACKGROUND================================*/
 

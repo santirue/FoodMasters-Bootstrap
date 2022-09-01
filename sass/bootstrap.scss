@@ -1,5 +1,5 @@
-$primary:#1b2a4e;
-$secondary:#0054d1;
+$primary: #1b2a4e;
+$secondary: #0054d1;
 
 .container,
 .container-fluid,
@@ -16,6 +16,17 @@ $secondary:#0054d1;
   margin-right: auto;
   margin-left: auto;
 }
+
+.w-cien {
+  width: 100% !important;
+}
+
+@media only screen and (min-width: 768px){
+  .w-cien{width: 50%}
+
+}
+
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";

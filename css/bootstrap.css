@@ -15,6 +15,15 @@
   margin-left: auto;
 }
 
+.w-cien {
+  width: 100% !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .w-cien {
+    width: 50%;
+  }
+}
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
