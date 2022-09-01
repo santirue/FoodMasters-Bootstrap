@@ -14,7 +14,7 @@
 
 <body>
   <div class="container-fluid ">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
       <a class="navbar-brand py-0 my-0
       px-3" href="#">
         <img src="assets/logo-chef-3.png" alt="Logo" class="p-0 m-0 img-fluid" style="max-height: 3.2rem;">
@@ -29,22 +29,23 @@
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="#">Mas Vistos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Precios</a>
+            <a class="nav-link" href="#">Contacto</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Servicios
+             Categorias
             </a>
 
             <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Renta</a></li>
-              <li><a class="dropdown-item" href="#">Equipos</a>
+              <li><a class="dropdown-item" href="./pages/vegana.html">Vegana</a></li>
+              <li><a class="dropdown-item" href="#">Pastas</a>
               <li>
-              <li><a class="dropdown-item" href="#">Networking</a></li>
+              <li><a class="dropdown-item" href="#">Carnes</a></li>
+              <li><a class="dropdown-item" href="#">China</a></li>
             </ul>
           </li>
         </ul>
@@ -77,9 +78,9 @@
     <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
       id="intro">
       <h1 class="p-3 fs-2 border-top border-3">Aprende a cocinar las recetas mas ricas de una manera <span
-          class="text-primary">Facil y Divertida</span></h1>
+          class="text-secondary fw-bold">Facil y Divertida</span></h1>
       <p class="p-3  fs-4">
-        <span class="text-primary">FoodMasters</span> es la pagina Numero 1 para quienes desean empezar a elaborar
+        <span class="text-secondary fw-bold">FoodMasters</span> es la pagina Numero 1 para quienes desean empezar a elaborar
         platillos deliciosos de una manera rapida y sencilla.
         <br> A continuacion encontraras las recetas mas populares.
       </p>
@@ -87,11 +88,13 @@
     <section class="w-100">
       <div class="row w-75 mx-auto" id="servicios-fila-1">
         <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-          <img src="./assets/empanadas.jpg" alt="desarrollo" width="180" height="160" class="img-fluid b">
+          <a href="https://www.youtube.com/watch?v=91iqo6VG4vk&t=1s&ab_channel=TenedorLibre" target="_blank">
+            <img src="./assets/empanadas.jpg" alt="desarrollo" width="180" height="160" class="img-fluid b">
+          </a>
 
           <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
-            <p class="px-4">Desarrollo de aplicaciones WEB, moviles y ecommerce</p>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Empanadas</h3>
+            <p class="px-4">Unas ricas empanadas de carne!</p>
           </div>
 
         </div>
@@ -100,8 +103,8 @@
           <img src="./assets/hamburguesa.jpg" alt="concepto" width="180" height="160">
 
           <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Branding</h3>
-            <p class="px-4">Diseño, Conceptualización e Implementación de productos digitales</p>
+            <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Hamburguesa</h3>
+            <p class="px-4">Una rica super Hamburguesa!</p>
           </div>
         </div>
       </div>
@@ -111,8 +114,8 @@
           <img src="./assets/fideoscaseros.jpg" alt="comunicaciones" width="180" height="160">
 
           <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">Comunicaciones</h3>
-            <p class="px-4">Desarrollo del plan de comunicaciones para sus clientes.</p>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Fideos Caseros</h3>
+            <p class="px-4">Unos ricos Fideos Caseros</p>
           </div>
         </div>
 
@@ -120,13 +123,21 @@
           <img src="./assets/ravioles.jpg" alt="seo" width="180" height="160">
 
           <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
-            <p class="px-4">Analizamos la eficiencia y optimizamos los sitios WEB</p>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Ravioles</h3>
+            <p class="px-4">Unos ricos Ravioles de verdura y ricota</p>
           </div>
         </div>
       </div>
-    </section>
-
+    </section> 
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3  pt-3">FoodMasters. &copy; Todos Los Derechos Reservados 2022</p>
+      <div id="iconos">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    </footer>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

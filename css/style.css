@@ -14,6 +14,57 @@ body {
     width: 50%;
 }
 
+.hr{
+    margin: 0 !important;
+}
+
+
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+    ;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+
 
 
 
